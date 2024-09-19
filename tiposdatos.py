@@ -32,8 +32,8 @@ class Datos:
             "iphone 12 ":"23/10/2022"
         }
         print(iphone)
-        for x in iphone:
-            print(x, iphone[x])
+        for x,y in iphone.items():
+            print(x,y)
     
 
 #creacion del objeto
